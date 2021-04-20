@@ -1,0 +1,53 @@
+section {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #fcfbfb;
+    height: 350px;
+    width: 30%;
+    box-shadow: 5px 10px 20px rgb(250, 249, 250) inset;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid turquoise;
+    border-radius: 70px;
+    margin-top: 5px;
+}
+
+section p {
+    width: 200px;
+    margin: auto;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#photo-template {
+    display: none;
+}
+
+#sortSection {
+    padding-top: 20px;
+    width: 100%;
+    margin: Arial, Helvetica, sans-serif
+    font-weight: normal;
+}
+
+#pagesSection ul li {
+    display: inline;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid turquoise;
+    font-weight: bold;
+}
+
+section h2 {
+    margin-top: 10px;
+}
