@@ -1,53 +1,43 @@
-section {
-    float: left;
-    margin: 10px;
-    padding: 5px;
-    margin-bottom: 50px;
-    text-align: center;
-    border: 1px solid #fcfbfb;
-    height: 350px;
-    width: 30%;
-    box-shadow: 5px 10px 20px rgb(250, 249, 250) inset;
-}
-
-section img {
-    width: 200px;
-    height: 200px;
-    border: 2px solid turquoise;
-    border-radius: 70px;
-    margin-top: 5px;
-}
-
-section p {
-    width: 200px;
-    margin: auto;
-    font-size: 14px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#photo-template {
-    display: none;
-}
-
-#sortSection {
-    padding-top: 20px;
-    width: 100%;
-    margin: Arial, Helvetica, sans-serif
-    font-weight: normal;
-}
-
-#pagesSection ul li {
-    display: inline;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    background-color: white;
-    margin-bottom: 20px;
-    padding: 5px;
-    border: 1px solid turquoise;
+h1 {
+    display: block;
+    font-size: 100px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
 }
-
-section h2 {
-    margin-top: 10px;
+h2 {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div img{
+    width: 100%;
+}
+h1{
+    margin: 40px auto;
+    font-family:fantasy;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+select {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    outline: none;
+    -webkit-appearance: none;
+    font: 14px 'Open Sans', sans-serif;
+    cursor: pointer;
+    min-width: 256px;
+    padding: 8px 16px;
+    border-radius: 3px;
+  }

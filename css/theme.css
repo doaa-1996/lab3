@@ -1,0 +1,26 @@
+body {
+    background: #e6e6fa;
+    background: -webkit-linear-gradient(to right, #dcdcfc, #fffdd0);  
+    background: linear-gradient(to right, #dcdcfc, #FFFDD0); 
+}
+.btn-1, .btn-2 {
+    color: white;
+    background-color: rgb(192, 21, 126);
+    box-shadow: inset 0 0 0 0 #7ffc2c;
+}
+
+
+
+h1{
+    color: #121212;
+    
+}
+
+select {
+    color: #3C434A;
+    border-color: #A6AFB7;
+    background: #FFFFFF url('https://i.imgur.com/hRbauFc.png') no-repeat scroll right center;
+}
+
+div{
+    border: 1px solid rgb(160, 21, 113)

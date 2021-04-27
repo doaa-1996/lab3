@@ -1,37 +1,42 @@
-header {
-    font-size: 50px;
-  background-color:white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
+div{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 360px;
+  margin: 30px 30px;
+  grid-template-rows: 60px 200px 100px;
+  padding: 20px;
+  outline: none;
+ 
+  
 }
 
-select {
-    background-color: white;
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0.5px solid turquoise;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    display: block;
-    margin: auto;
-}
 
-footer {
-    clear: both;
-  background-color:white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
 }
-
-h1 {
-    padding-bottom: 20px;
-    font-size: 60px;
+#photo-template{
+  display: none;
+}
+.displays {
+  display: none;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.btn-1, .btn-2 {
+  letter-spacing: 1px;
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  outline: none;
 }
